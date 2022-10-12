@@ -24,4 +24,4 @@ $ . build/envsetup.sh && lunch lineage_j7y17lte-userdebug && mka clean && mka ap
 2022 @Batuhantrkgl
 
 ## Contact
-Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
+Telegram support group: https://t.me/batuhan_s_builds
