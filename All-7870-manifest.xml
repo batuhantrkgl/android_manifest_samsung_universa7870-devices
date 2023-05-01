@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: j7y17lte, j5y17lte, j7velte, j7xelte, j6lte, on7xelte, a3y17lte
-    * rom: Anything Based LineageOS
+    * rom: Anything Based AOSP
     -->
 
     <!-- Remote -->
@@ -11,16 +11,16 @@
 
 	
     <!-- Devices -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_j7velte" path="device/samsung/j7velte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="batuhantrkgl" revision="crdroid" />
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_j7velte" path="device/samsung/j7velte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="batuhantrkgl" revision="aex" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="batuhantrkgl" revision="aex" />
 
     <!-- Common Device -->
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="aex" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
