@@ -6,33 +6,38 @@
     -->
 
     <!-- Remote -->
+    <remote fetch="https://github.com/batuhantrkgl" name="batuhantrkgl" />
     <remote fetch="https://github.com/samsungexynos7870" name="samsungexynos7870" />
 
 	
     <!-- Devices -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_j7velte" path="device/samsung/j7velte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_j7velte" path="device/samsung/j7velte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="batuhantrkgl" revision="crdroid" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="batuhantrkgl" revision="crdroid" />
+
+    <!-- Common Device -->
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
 
     <!-- Vendors -->
-    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_j7velte" path="vendor/samsung/j7velte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_j7xelte" path="vendor/samsung/j7xelte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_j6lte" path="vendor/samsung/j6lte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="samsungexynos7870" revision="common" />
+    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_j7velte" path="vendor/samsung/j7velte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_j7xelte" path="vendor/samsung/j7xelte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_j6lte" path="vendor/samsung/j6lte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" remote="batuhantrkgl" revision="common" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="batuhantrkgl" revision="common" />
+
+    <!-- Common Vendor -->
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="aosp" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="batuhantrkgl" revision="lineage-17.1-testing" />
 		
 </manifest>
